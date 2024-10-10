@@ -12,19 +12,19 @@ body {
   font-weight: 600;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-h1{
-    font-family: "Playfair Display";
-    font-weight: 800;
-    font-size: 3.5rem;
+h1 {
+  font-family: "Playfair Display";
+  font-weight: 800;
+  font-size: 3.5rem;
 }
 
 nav {
   background-color: #021b2e;
-  color: #F9F9EF;
+  color: #f9f9ef;
   width: 90%;
   margin: auto;
   max-width: 1800px;
@@ -39,106 +39,123 @@ nav {
   font-weight: 800;
 }
 
-nav>a{
-    color: #12BA9C;
-    text-decoration: none;
+nav > a {
+  color: #12ba9c;
+  text-decoration: none;
 }
 
-nav ul{
-    list-style-type: none;
-    display: flex;
-    gap: 5rem;
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 5rem;
 }
 
-nav>ul a{
-    color: #F9F9EF;
-    text-decoration: none;
+nav > ul a {
+  color: #f9f9ef;
+  text-decoration: none;
 }
 
-header{
-    width: 95%;
-    margin: auto;
-    max-width: 1800px;
-    display: flex;
-    height: 80vh;
+header {
+  width: 95%;
+  margin: auto;
+  max-width: 1800px;
+  display: flex;
+  height: 80vh;
 }
 
-header div{
-    width: 40%;
+header div {
+  width: 40%;
 }
 
-header img{
-    width: 60%;
+header img {
+  width: 60%;
 }
 
-header a{
-    color: #021b2e;
+header a {
+  color: #021b2e;
 }
 
-.orange{
-    background-color: #FF5710;
-    color: #efeace;
+.orange {
+  background-color: #ff5710;
+  color: #efeace;
 }
 
-.teal{
-    background-color: #12BA9C;
-    color:#efeace;
+.teal {
+  background-color: #12ba9c;
+  color: #efeace;
 }
 
-.button{
-    padding: 0.9rem 1.5rem;
-    text-decoration: none;
-    border-radius: 1.5rem 1.5rem;
+.button {
+  padding: 0.9rem 1.5rem;
+  text-decoration: none;
+  border-radius: 1.5rem 1.5rem;
 }
 
 /* Esto es de la Clase */
 
-section{
-    width: 95%;
-    max-width: 1800px;
-    margin:auto;
+section {
+  width: 95%;
+  max-width: 1800px;
+  margin: auto;
 }
 
-.booking input{
-    background-color: #EFE4CE;
-    border-color: #ADA6A2;
-    border-style: solid;
-    border-width: 2px;
-    padding: 1.3rem 1.5rem;
-    border-radius: 1rem;
+.booking input {
+  background-color: #efe4ce;
+  border-color: #ada6a2;
+  border-style: solid;
+  border-width: 2px;
+  padding: 1.3rem 1.5rem;
+  border-radius: 1rem;
 }
 
-.booking input[type="submit"]{
-  background-color: #14BA9C;
+.booking input[type="submit"] {
+  background-color: #14ba9c;
   border-style: none;
-  color: #EFE4CE; 
+  color: #efe4ce;
 }
 
-.label-input{
+.label-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.booking form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.card {
+  background-color: #faf9ef;
+  border-radius: 1rem 1rem;
+}
+
+.card-vertical {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.card-horizontal {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+/* Esto es de la Clase parte 2*/
+
+.cards-container {
+  display: flex;
+  gap: 1rem 2rem;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.cards-container-customers {
     display: flex;
-    flex-direction: column;
-}
-
-.booking form{
-    display: flex;
-    gap:0.5rem;
-}
-
-.card{
-    background-color: #FAF9EF;
-    border-radius: 1rem 1rem;
-}
-
-.card-vertical{
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-.card-horizontal{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-}
+    gap: 10px 30px;
+    flex-wrap: nowrap;
+    justify-content:space-around;
+    flex-grow: 2;
+  }
